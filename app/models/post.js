@@ -12,7 +12,7 @@ module.exports = function(){
             default: 0
         },
 
-        id:{
+        uid:{
             type: mongoose.Schema.ObjectId,
             ref: 'Usuario'
         },
